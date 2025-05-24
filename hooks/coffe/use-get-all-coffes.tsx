@@ -1,5 +1,7 @@
+
+
 export default function useGetCoffees() {
-  const BASE_URL = process.env.EXPO_PUBLIC_API_URL;
+  const BASE_URL = process.env.EXPO_PUBLIC_API_BASE_URL;
   async function getAllCoffes() {
     const response = await fetch(`${BASE_URL}/api/all_coffes`, {
       method: "GET",

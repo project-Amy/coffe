@@ -29,4 +29,5 @@ export const Colors = {
   neutralLight: '#e3e3e3',
   neutralBeige: '#f9f2ed',
   textLight: '#A2A2A2',
+
 };
